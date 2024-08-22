@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header{
+    background: rgba(1, 113, 3, 0.863) ;
+    padding: 30px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBtn{
+    border-radius: 25px;
+    background-color: #f4f1f1;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    width: 150px;
+    height: 50px;
+}
+.navBtn:hover{
+    background-color: #d5fccc;  
+}
+
+
+.headerBtnGroup{
+    display: flex;
+    gap: 12px;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.navBtn a{
+    text-decoration: none;
+    color: rgb(6, 72, 7);
+}
+
+.hamburguer-menu{
+    display:none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.line{ 
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+@media (max-width: 600px){
+    .hamburguer-menu{
+        display: block;
+        z-index: 999;
+    }
+
+.headerBtnGroup{
+    display: none;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    background-color: rgb(124, 253, 169);
+    width: 40%;
+    padding: 5px;
+}
+
+.headerBtnGroup button{
+    margin: 0;
+}
+
+.menu button a{
+    display: block;
+    padding: 10px 20px;
+    color:#f4f1f1;
+    text-decoration: none;
+}
+.menu button:hover {
+    background-color: #d5fccc;
+  }
+
+  .show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
