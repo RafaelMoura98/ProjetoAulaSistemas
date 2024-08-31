@@ -16,11 +16,11 @@
 <body>
     <div class="container">
         <header class="header">
-            <a class='logo' href='http://localhost/Projeto/'>InfoSports</a>
+            <a class='logo' href='https://localhost/ProjetoAulaSistemas/'>InfoSports</a>
             <div class="headerBtnGroup">
-                <button class="navBtn"><a href='/http://localhost/Projeto/Html/login.php'>Login</a></button>
-                <button class="navBtn"><a href='http://localhost/Projeto/Html/registro.php'>Registro</a></button>
-                <button class="navBtn"><a href='http://localhost/Projeto/Html/contato.php'>Contato</a></button>
+                <button class="navBtn"><a href='/https://localhost/ProjetoAulaSistemas/Html/login.php'>Login</a></button>
+                <button class="navBtn"><a href='https://localhost/ProjetoAulaSistemas/Html/registro.php'>Registro</a></button>
+                <button class="navBtn"><a href='https://localhost/ProjetoAulaSistemas/Html/contato.php'>Contato</a></button>
                 <div>
                     <input type="checkbox" class="check" id="chk" />
                 

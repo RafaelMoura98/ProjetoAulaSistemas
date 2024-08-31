@@ -16,11 +16,11 @@
 <body>
     <div class="container">
         <header class="header">
-            <a class='logo' href='http://localhost/Projeto/'>InfoSports</a>
+            <a class='logo' href='https://localhost/ProjetoAulaSistemas/'>InfoSports</a>
             <div class="headerBtnGroup">
-                <button class="navBtn"><a href='http://localhost/Projeto/Html/login'>Login</a></button>
-                <button class="navBtn"><a href='http://localhost/Projeto/Html/registro'>Registro</a></button>
-                <button class="navBtn"><a href='http://localhost/Projeto/Html/contato'>Contato</a></button>
+                <button class="navBtn"><a href='https://localhost/ProjetoAulaSistemas/Html/login'>Login</a></button>
+                <button class="navBtn"><a href='https://localhost/ProjetoAulaSistemas/Html/registro'>Registro</a></button>
+                <button class="navBtn"><a href='https://localhost/ProjetoAulaSistemas/Html/contato'>Contato</a></button>
                 <div>
                     <input type="checkbox" class="check" id="chk" />
                 
@@ -88,7 +88,7 @@
         </footer>
     </div>
     <script src="scripts/temaescuro.js"></script>
-    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+    <script src="httpss://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
 
 </body>
 

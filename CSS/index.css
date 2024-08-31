@@ -61,6 +61,14 @@
     background-color:#d6f8df;
 }
 
+.mainCardImg:hover{
+    max-width: 101%;
+    transition: 0.5s;
+
+
+
+}
+
 .pag-link{
     text-decoration: none;
     color: #171717;
@@ -96,11 +104,11 @@
 
 .IMC{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     row-gap: 12px;
     padding-bottom: 20px;
     background-color: #d6f8df;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 }
 
 .btnCalcular {
