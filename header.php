@@ -38,3 +38,6 @@
         <div class="line"></div>
       </div>
     </header>
+    <?php
+      include_once("functions.php");
+    ?>

@@ -53,3 +53,20 @@ emocionantes. Deixe a rotina para trás e explore novos horizontes ao ar livre."
 
 };
 ?>
+<?php
+  function TimeZone() {
+    date_default_timezone_set("America/Recife");
+  }
+function HoraAtual() {
+  return date("h:i:sa");
+}
+function DataAtual(){
+  return date("d/m/y");
+}
+
+function reduzirStr($str,$quantidade){
+  $tamanho = strlen($str);
+  if($str && $tamanho >= $quantidade){
+    return substr($str,0,$quantidade)."...";
+  }
+}

@@ -61,14 +61,6 @@
     background-color:#d6f8df;
 }
 
-.mainCardImg:hover{
-    max-width: 101%;
-    transition: 0.5s;
-
-
-
-}
-
 .pag-link{
     text-decoration: none;
     color: #171717;
