@@ -12,32 +12,43 @@
   <script src="scripts/header.js" defer></script>
   <script src="scripts/imc.js" defer></script>
   <script src="scripts/temaescuro.js" defer></script>
+  
+  <?php if($paginaUrl === "contato"){ ?>
+    <link rel="stylesheet" href="./CSS/contato.css">
+    <link rel="stylesheet" href="./CSS/validacao-contato.css">
+ 
+  <?php }elseif($paginaUrl === "registro"){ ?>
+    <link rel="stylesheet" href="./CSS/registro.css">
+    <link rel="stylesheet" href="./CSS/validacao.css">
+    <?php }elseif($paginaUrl === "login"){?>
+    <link rel="stylesheet" href="./CSS/login.css">
+    <link rel="stylesheet" href="./CSS/validacao.css">
+  <?php }else?>
 
-  <title>InfoSports</title>
+<title>InfoSports</title>
 </head>
-
 <header class="header">
-      <a class='logo' href=>InfoSports</a>
-      <div class="headerBtnGroup">
-        <button class="navBtn"><a href='./Html/login.php'>Login</a></button>
-        <button class="navBtn"><a href='./Html/registro.php'>Registro</a></button>
-        <button class="navBtn"><a href='./Html/contato.php'>Contato</a></button>
-        <div>
-          <input type="checkbox" class="check" id="chk"/>
-          
-          <label class="label" for="chk">
-            <i class="fas fa-moon"></i>
-            <i class="fas fa-sun"></i>
-            <div class="bola"></div>
-          </label>
+      <a class="logo" href=>InfoSports</a>
+        <div class="headerBtnGroup">
+          <button class="navBtn"><a href='./Html/login.php'>Login</a></button>
+          <button class="navBtn"><a href='./Html/registro.php'>Registro</a></button>
+          <button class="navBtn"><a href='./Html/contato.php'>Contato</a></button>
+          <div>
+            <input type="checkbox" class="check" id="chk"/>
+            
+            <label class="label" for="chk">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+              <div class="bola"></div>
+            </label>
+          </div>
         </div>
-      </div>
-      <div class="hamburguer-menu">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
-    </header>
-    <?php
-      include_once("functions.php");
-    ?>
+        <div class="hamburguer-menu">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+  </header>
+<?php
+ include_once("functions.php")
+?>

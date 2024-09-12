@@ -10,11 +10,17 @@
   }
   
   include_once("header.php");
-  if ($paginaUrl == "principal"){
+  if ($paginaUrl === "principal"){
     include_once("body.php");  
-  }else{
-  include_once("telateste.php");
+  }elseif($paginaUrl === "contato"){
+  include_once("contato.php");
+}elseif($paginaUrl === "login"){
+  include_once("login.php");
+}elseif($paginaUrl === "registro"){
+  include_once("registro.php");
+}else{
+  echo "404 Página não existe!";
 }
-
+  
   include_once("footer.php");
 ?>
