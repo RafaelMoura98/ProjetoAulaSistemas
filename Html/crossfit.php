@@ -16,7 +16,7 @@
 <body>
     <div class="container">
         <header class="header">
-            <a class='logo' href='https://localhost/ProjetoAulaSistemas/'>InfoSports</a>
+            <a class='logo' href='https://localhost/ProjetoAulaSistemas/?pagina=principal'>InfoSports</a>
             <div class="headerBtnGroup">
                 <button class="navBtn"><a href='/https://localhost/ProjetoAulaSistemas/Html/login.php'>Login</a></button>
                 <button class="navBtn"><a href='https://localhost/ProjetoAulaSistemas/Html/registro.php'>Registro</a></button>

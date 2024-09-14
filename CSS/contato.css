@@ -7,37 +7,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-header {
-    background: #86cc99;
-}
-
-.headerBtnGroup {
-    display: flex;
-    justify-content: end;
-}
-
-a {
-    text-decoration: none;
-}
-
-.navBtn {
-    border-radius: 25px;
-    background-color: #86cc99;
-    border: none;
-    color: black;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-size: 15px;
-}
-
-.navBtn:hover {
-    background-color: #b8b8b8;
-}
-
 .container-body {
     display: flex;
     height: 70%;
@@ -153,6 +122,7 @@ form .button button:hover {
    background-color:#b8dac1;
    color:white;
     transform: translatey(-3px);
+    cursor:pointer;
 }
 
 

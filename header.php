@@ -13,14 +13,13 @@
   <script src="scripts/imc.js" defer></script>
   <script src="scripts/temaescuro.js" defer></script>
   
-  <?php if($paginaUrl === "contato"){ ?>
+  <?php if($paginaUrl === "contato"){?>
     <link rel="stylesheet" href="./CSS/contato.css">
     <link rel="stylesheet" href="./CSS/validacao-contato.css">
- 
-  <?php }elseif($paginaUrl === "registro"){ ?>
+  <?php }elseif($paginaUrl === "registro"){?>
     <link rel="stylesheet" href="./CSS/registro.css">
     <link rel="stylesheet" href="./CSS/validacao.css">
-    <?php }elseif($paginaUrl === "login"){?>
+  <?php }elseif($paginaUrl === "login"){?>
     <link rel="stylesheet" href="./CSS/login.css">
     <link rel="stylesheet" href="./CSS/validacao.css">
   <?php }else?>
@@ -28,11 +27,9 @@
 <title>InfoSports</title>
 </head>
 <header class="header">
-      <a class="logo" href=>InfoSports</a>
+      <a class="logo" href='https://localhost/ProjetoAulaSistemas/?pagina=principal'>InfoSports</a>
         <div class="headerBtnGroup">
-          <button class="navBtn"><a href='./Html/login.php'>Login</a></button>
-          <button class="navBtn"><a href='./Html/registro.php'>Registro</a></button>
-          <button class="navBtn"><a href='./Html/contato.php'>Contato</a></button>
+        <?php include_once("TopMenu.php");?>
           <div>
             <input type="checkbox" class="check" id="chk"/>
             

@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <link rel="stylesheet" href="../CSS/contato.css">
     <link rel="stylesheet" href="../CSS/header.css">
     <link rel="stylesheet" href="../CSS/footer.css">
-    <link rel="stylesheet" href="../CSS/validacao-contato.css">
     <link rel="stylesheet" href="../CSS/temaescuro.css">
-
+    <link rel="stylesheet" href="../CSS/contato.css">
+    <link rel="stylesheet" href="../CSS/validacao-contato.css">
     <script src="/scripts/header.js" defer></script>
     <script src="/scripts/contato.js" defer></script>
     
@@ -18,36 +17,12 @@
 
 <body>
     <div class="body-bg">
-        <header class="header">
-            <a class='logo' href='https://localhost/ProjetoAulaSistemas/'>InfoSports</a>
-            <div class="headerBtnGroup">
-                <button class="navBtn"><a href='https://localhost/ProjetoAulaSistemas/Html/login.php'>Login</a></button>
-                <button class="navBtn"><a href='https://localhost/ProjetoAulaSistemas/Html/registro.php'>Registro</a></button>
-                <button class="navBtn"><a href='https://localhost/ProjetoAulaSistemas/Html/contato.php'>Contato</a></button>
-                <div>
-                    <input type="checkbox" class="check" id="chk"/>
-                
-                    <label class="label" for="chk">
-                        <i class="fas fa-moon"></i>
-                        <i class="fas fa-sun"></i>
-                        <div class="bola"></div>
-                    </label>
-                </div>
-            </div>
-            <div class="hamburguer-menu">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-        </header>
         <div class="container-body">
             <div class="container">
                 <div class="title">
                     <h2>Contate-nos</h2>
                 </div>
-
                 <form action="./contato.php">
-
                     <div class="campos">
                         <div class="input-box">
                             <div class="name">
@@ -65,8 +40,8 @@
                             <div class="email">
                             <label for="email"></label>
                             <input type="text" placeholder="Email" id="email" name="email">
-                            <p id="email-ajuda" class="msg-ajuda" style="display:none;">Insira um email válido. Ex: abc@abc.com</p>
-                        </div>
+                            <p id="email-ajuda" class="msg-ajuda" style="display:none;">Insira um email válido. Ex:     abc@abc.com</p>
+                            </div>
                         </div>
 
                         <div class="input-box">
@@ -74,7 +49,7 @@
                             <label for="telefone"></label>
                             <input type="text" placeholder="Telefone" id="telefone" name="telefone">
                             <p id="tel-ajuda" class="msg-ajuda" style="display:none;">Insira um telefone válido. (11 números)</p>
-                        </div>
+                            </div>
                         </div>
 
                         <div class="input-box">
@@ -92,11 +67,6 @@
                 <h2>Contatos</h2>
             </section>
         </div>
-
-        <footer class="footer">
-            <span>Info Sports</span>
-            <a href="#backToTop" class="footerAnchor">VOLTAR PARA O TOPO</a>
-        </footer>
     </div>
     <script src="scripts/temaescuro.js"></script>
     <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
