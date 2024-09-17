@@ -32,7 +32,6 @@
         <?php include_once("TopMenu.php");?>
           <div>
             <input type="checkbox" class="check" id="chk"/>
-            
             <label class="label" for="chk">
               <i class="fas fa-moon"></i>
               <i class="fas fa-sun"></i>

@@ -3,7 +3,9 @@
  * Pegando informação da url
  */
   
-  if($_GET && isset($_GET["pagina"])){
+  include_once("configuracao.php");
+ 
+ if($_GET && isset($_GET["pagina"])){
     $paginaUrl = $_GET['pagina'];
   }else{
     $paginaUrl = null;
