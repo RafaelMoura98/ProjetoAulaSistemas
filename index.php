@@ -4,7 +4,15 @@
  */
   
   include_once("configuracao.php");
- 
+  include_once("functions.php");
+  $peso = ($_SERVER["REQUEST_METHOD"] == "POST"
+  && !empty($_POST['peso'])) ? $_POST['peso'] : null;
+
+  $altura = ($_SERVER["REQUEST_METHOD"] == "POST"
+  && !empty($_POST['altura'])) ? $_POST['altura'] : null;
+
+  $resposta = 0;
+
  if($_GET && isset($_GET["pagina"])){
     $paginaUrl = $_GET['pagina'];
   }else{
